@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="./images/logo.svg" alt="logo" id="logo">
+  <section id="card">
+    <div id="data">
+  
+      <!-- section 1 -->
+      <div class="section1">
+        <div class="bill">
+          <h3>Bill</h3>
+          <input type="number" name="number" placeholder="$" required>
+        </div>
+      </div>
+    
+    
+    <!-- section 2-->
+      <div class="section2">
+        <div class="select tip">
+          <h3>Select Tip %</h3>
+          <input type="button" value="10%" class="btn10%">
+          <input type="button" value="15%" class="btn15%">
+          <input type="button" value="25%" class="btn25%">
+          <input type="button" value="50%" class="btn50%">
+          <input type="number" name="number" placeholder="custom" required>
+        </div>
+      </div>
+      
+    
+    <!-- section 3-->
+    <div class="sction3">
+      <div class="number of people">
+        <h3> Number of People</h3>
+        <p>can't be 0</p>
+        <input type="number" name="number" placeholder="*" required>
+      </div>
+    </div>
+    </div>
+    
+    
+    <!--section 4-->
+    
+    <div id="result">
+      <div class="tip amount">
+        <h2> Tip Amount</h2>
+        <h5>/ person</h5>
+      
+      </div>
+      
+        
+      <div class="total">
+        <h2>Total</h2>
+        <h5> / person</h5>
+      </div>
+      
+        <div class="reset">
+          <input type="submit" value="Reset" class="btn50%">
+        </div>
+    </div>
+    
+  </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Wassim Hachani</a>.
+  </div>
+</body>
+</html>
